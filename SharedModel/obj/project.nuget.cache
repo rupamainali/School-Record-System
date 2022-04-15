@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "3rZNt8qYOZhZvhqyKSomgx9OaIO1H8fjfuuW94TXnA2L6n7wd3J/+8D9dN+nH0Gqv4Ce+3Dwc9PAeuEhIMhbsg==",
+  "success": true,
+  "projectFilePath": "/Users/Pro/Desktop/DotNet_Core/School Record System/SharedModel/SharedModel.csproj",
+  "expectedPackageFiles": [
+    "/Users/Pro/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/Pro/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/Pro/.nuget/packages/objectdumper/1.0.0.12/objectdumper.1.0.0.12.nupkg.sha512",
+    "/Users/Pro/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ObjectDumper 1.0.0.12' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ObjectDumper",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

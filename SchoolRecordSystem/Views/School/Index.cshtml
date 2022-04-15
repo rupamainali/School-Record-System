@@ -1,0 +1,49 @@
+﻿@model List<SharedModel.School.SchoolDetails>
+@{
+    ViewData["Title"] = "School List";
+}
+@{
+    if (TempData["Code"] != null)
+    {
+        if (TempData["Code"].ToString() == "0")
+        {
+            <div class="alert alert-success">@TempData["Message"]</div>
+        }
+        else
+        {
+            <div class="alert alert-danger">@TempData["Message"]</div>
+        }
+    }
+
+}
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>School Id</th>
+            <th>School Name</th>
+            <th>School Address</th>
+            <th>School Reg No</th>
+            <th>School Principal</th>
+            <th>No Of Teacher</th>
+            <th>Remarks</th>
+        </tr>
+        @{
+            foreach (var school in Model)
+            {
+                <tr>
+                    <td>@school.SchoolId</td>
+                    <td>@school.SchoolName</td>
+                    <td>@school.SchoolAddress</td>
+                    <td>@school.SchoolRegistrationNumber</td>
+                    <td>@school.SchoolPrincipal</td>
+                    <td>@school.NumberOfTeachers</td>
+
+                    <td>
+                        <a asp-controller="School" asp-action="EditSchool" asp-route-id="@school.SchoolId" class="btn btn-warning">Edit School</a>&nbsp;
+                        <a asp-controller="School" asp-action="DeleteSchool" asp-route-id="@school.SchoolId" onclick="return confirm('Are You Sure?')" class="btn btn-danger">Delete School</a>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+</div>

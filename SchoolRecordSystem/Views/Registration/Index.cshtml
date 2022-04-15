@@ -1,0 +1,49 @@
+﻿@model List<SharedModel.Registration.RegisteredUsers>
+@{
+    ViewData["Title"] = "Registration List";
+}
+@{
+    if (TempData["Code"] != null)
+    {
+        if (TempData["Code"].ToString() == "0")
+        {
+            <div class="alert alert-success">@TempData["Message"]</div>
+        }
+        else
+        {
+            <div class="alert alert-danger">@TempData["Message"]</div>
+        }
+    }
+
+}
+
+<a asp-controller="Registration" asp-action="RegisterUser" class="btn btn-primary"> Register User</a>
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>Registration Id</th>
+            <th>Username</th>
+            <th>Created By</th>
+            <th>Created Date</th>
+            <th>Remarks</th>
+        </tr>
+        @{
+            foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.Username</td>
+                    <td>@user.CreatedBy</td>
+                    <td>@user.CreatedDate</td>
+                    <td>
+                        <a asp-controller="Registration" asp-action="DeleteUser" asp-route-id="@user.Id" onclick="return confirm('Are You Sure?')" class="btn btn-danger">Delete User</a>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+</div>
+
+
+
+

@@ -1,0 +1,12 @@
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/bin/Debug/netstandard2.0/DataAccessLayer.deps.json
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/bin/Debug/netstandard2.0/DataAccessLayer.dll
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/bin/Debug/netstandard2.0/DataAccessLayer.pdb
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/bin/Debug/netstandard2.0/SharedModel.dll
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/bin/Debug/netstandard2.0/SharedModel.pdb
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/obj/Debug/netstandard2.0/DataAccessLayer.csprojAssemblyReference.cache
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/obj/Debug/netstandard2.0/DataAccessLayer.AssemblyInfoInputs.cache
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/obj/Debug/netstandard2.0/DataAccessLayer.AssemblyInfo.cs
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/obj/Debug/netstandard2.0/DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/obj/Debug/netstandard2.0/DataAccessLayer.csproj.CopyComplete
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/obj/Debug/netstandard2.0/DataAccessLayer.dll
+/Users/Pro/Desktop/DotNet_Core/School Record System/DataAccessLayer/obj/Debug/netstandard2.0/DataAccessLayer.pdb

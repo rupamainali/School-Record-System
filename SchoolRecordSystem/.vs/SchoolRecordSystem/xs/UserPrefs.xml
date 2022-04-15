@@ -1,0 +1,69 @@
+﻿<Properties StartupConfiguration="{0A71399D-120E-4417-BC86-0A1649CCD97F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Startup.cs" Line="29" Column="68" />
+      <File FileName="../BusinessLayer/LoginBusiness/ILoginBusiness.cs" />
+      <File FileName="Controllers/LoginController.cs" />
+      <File FileName="Controllers/RegistrationController.cs" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="../BusinessLayer/RegistrationBusiness/IRegistrationBusiness.cs" />
+      <File FileName="Extensions/CustomValidationAttribute.cs" />
+      <File FileName="Views/Registration/RegisterUser.cshtml" />
+      <File FileName="Views/Registration/ResetPassword.cshtml" />
+      <File FileName="Views/Login/Index.cshtml" />
+      <File FileName="Views/School/AddSchool.cshtml" />
+      <File FileName="Views/School/EditSchool.cshtml" />
+      <File FileName="Views/School/Index.cshtml" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="Views/_ViewStart.cshtml" />
+      <File FileName="Program.cs" />
+      <File FileName="../SharedModel/Login/LoginDetails.cs" />
+      <File FileName="../SharedModel/Login/LoginResponse.cs" />
+      <File FileName="../SharedModel/Registration/RegisteredUsers.cs" />
+      <File FileName="Models/ErrorViewModel.cs" />
+      <File FileName="Properties/PublishProfiles/FolderProfile.pubxml" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="82" Column="42" />
+      <File FileName="Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="Views/Shared/Error.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SchoolRecordSystem" expanded="True">
+            <Node name="BusinessLayer" expanded="True">
+              <Node name="LoginBusiness" expanded="True" />
+              <Node name="RegistrationBusiness" expanded="True" />
+            </Node>
+            <Node name="SchoolRecordSystem" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="PublishProfiles" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Login" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="SharedModel" expanded="True">
+              <Node name="Helpers" expanded="True" />
+              <Node name="Login" expanded="True" />
+              <Node name="Registration" expanded="True" />
+              <Node name="Response" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SchoolRecordSystem PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

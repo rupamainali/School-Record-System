@@ -1,0 +1,38 @@
+﻿@model SchoolDetailsModel
+<form method="post" asp-controller="School" asp-action="AddSchool">
+    @*<div asp-validation-summary="All"></div>*@
+    <div class="form-group">
+        <label asp-for="SchoolName">School Name <span class="text-danger">*</span></label>
+        <input type="text" asp-for="SchoolName" class="form-control" />
+        <span id="labelSchoolName" asp-validation-for="SchoolName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SchoolAddress">School Address <span class="text-danger">*</span></label>
+        <input type="text" asp-for="SchoolAddress" class="form-control" />
+        <span asp-validation-for="SchoolAddress" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SchoolRegistrationNumber">School Registration Number <span class="text-danger">*</span></label>
+        <input type="text" asp-for="SchoolRegistrationNumber" class="form-control" />
+        <span asp-validation-for="SchoolRegistrationNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SchoolPrincipal">School Principal <span class="text-danger">*</span></label>
+        <input type="text" asp-for="SchoolPrincipal" class="form-control" />
+        <span asp-validation-for="SchoolPrincipal" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NumberOfTeachers">Number Of Teachers <span class="text-danger">*</span></label>
+        <input type="text" asp-for="NumberOfTeachers" class="form-control" />
+        <span asp-validation-for="NumberOfTeachers" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input id="AddSchool" type="submit" value="Add School" class="btn btn-primary" />
+    </div>
+</form>
+
+
+
+
+
+

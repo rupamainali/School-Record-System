@@ -1,0 +1,46 @@
+﻿@model SharedModel.School.SearchSchool
+@{
+    ViewData["Title"] = "Search School";
+}
+
+<form method="get"  asp-controller="School" asp-action="Search">
+    <div class="form-group">
+        <label asp-for="SearchText">School Name</label>
+        <input type="text" asp-for="SearchText" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Search" class="btn btn-primary" />
+    </div>
+</form>
+
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+            <th>School Id</th>
+            <th>School Name</th>
+            <th>School Address</th>
+            <th>School Reg No</th>
+            <th>School Principal</th>
+            <th>No Of Teacher</th>
+            <th>Remarks</th>
+        </tr>
+        @{
+            foreach (var school in Model.Schools)
+            {
+                <tr>
+                    <td>@school.SchoolId</td>
+                    <td>@school.SchoolName</td>
+                    <td>@school.SchoolAddress</td>
+                    <td>@school.SchoolRegistrationNumber</td>
+                    <td>@school.SchoolPrincipal</td>
+                    <td>@school.NumberOfTeachers</td>
+
+                    <td>
+                        <a asp-controller="School" asp-action="EditSchool" asp-route-id="@school.SchoolId" class="btn btn-warning">Edit School</a>&nbsp;
+                        <a asp-controller="School" asp-action="DeleteSchool" asp-route-id="@school.SchoolId" onclick="return confirm('Are You Sure?')" class="btn btn-danger">Delete School</a>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+</div>

@@ -1,0 +1,9 @@
+/Users/Pro/Desktop/DotNet_Core/School Record System/SharedModel/bin/Debug/netstandard2.0/SharedModel.deps.json
+/Users/Pro/Desktop/DotNet_Core/School Record System/SharedModel/bin/Debug/netstandard2.0/SharedModel.dll
+/Users/Pro/Desktop/DotNet_Core/School Record System/SharedModel/bin/Debug/netstandard2.0/SharedModel.pdb
+/Users/Pro/Desktop/DotNet_Core/School Record System/SharedModel/obj/Debug/netstandard2.0/SharedModel.csprojAssemblyReference.cache
+/Users/Pro/Desktop/DotNet_Core/School Record System/SharedModel/obj/Debug/netstandard2.0/SharedModel.AssemblyInfoInputs.cache
+/Users/Pro/Desktop/DotNet_Core/School Record System/SharedModel/obj/Debug/netstandard2.0/SharedModel.AssemblyInfo.cs
+/Users/Pro/Desktop/DotNet_Core/School Record System/SharedModel/obj/Debug/netstandard2.0/SharedModel.csproj.CoreCompileInputs.cache
+/Users/Pro/Desktop/DotNet_Core/School Record System/SharedModel/obj/Debug/netstandard2.0/SharedModel.dll
+/Users/Pro/Desktop/DotNet_Core/School Record System/SharedModel/obj/Debug/netstandard2.0/SharedModel.pdb

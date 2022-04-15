@@ -1,0 +1,34 @@
+﻿@model SchoolRecordSystem.Models.LoginDetailsModel
+@{
+    ViewData["Title"] = "School List";
+}
+@{
+    if (TempData["Code"] != null)
+    {
+        if (TempData["Code"].ToString() == "0")
+        {
+            <div class="alert alert-success">@TempData["Message"]</div>
+        }
+        else
+        {
+            <div class="alert alert-danger">@TempData["Message"]</div>
+        }
+    }
+
+}
+<form method="post" asp-controller="Login" asp-action="LoginUser">
+    <div class="form-group">
+        <label asp-for="Username">Username <span class="text-danger">*</span></label>
+        <input type="text" asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">Password <span class="text-danger">*</span></label>
+        <input type="password" asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input id="Login" type="submit" value="Login" class="btn btn-primary" />
+    </div>
+</form>
